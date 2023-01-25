@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "91901CDA-C8DD-455B-A1A3-79082456E17F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50CF8251-BA1F-43E9-90F4-FD1FDF3CEC90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "coordinatorPatternTests/SecondCoordinatorClassTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "returnData(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50CF8251-BA1F-43E9-90F4-FD1FDF3CEC90 - 8206b88f0ce9613c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.SecondCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/SecondCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "50CF8251-BA1F-43E9-90F4-FD1FDF3CEC90 - 8206b88f0ce9613c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.SecondCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/SecondCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "50CF8251-BA1F-43E9-90F4-FD1FDF3CEC90 - 8206b88f0ce96202"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.SecondCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/SecondCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "50CF8251-BA1F-43E9-90F4-FD1FDF3CEC90 - 8206b88f0ce96202"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.SecondCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/SecondCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "201">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "502A1A62-F111-4B7B-B337-2CACD75A07E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "coordinatorPatternTests/FirstCoordinatorClassTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "returnData(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "502A1A62-F111-4B7B-B337-2CACD75A07E5 - 72605ae95dc4b020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.FirstCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/FirstCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "502A1A62-F111-4B7B-B337-2CACD75A07E5 - 72605ae95dc4b020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coordinatorPatternTests.FirstCoordinatorClassTests.returnData(data: Any) -&gt; ()"
+                  moduleName = "coordinatorPatternTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/belalmedhat/Pictures/coordinatorPattern/coordinatorPatternTests/FirstCoordinatorClassTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "201">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

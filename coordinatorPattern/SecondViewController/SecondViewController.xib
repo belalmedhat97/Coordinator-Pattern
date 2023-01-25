@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="coordinatorPattern" customModuleProvider="target">
+            <connections>
+                <outlet property="textLbl" destination="FMo-Hb-I1b" id="CQE-UU-nmu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sba7 al fol ya spong" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-Hb-I1b" userLabel="second screen">
+                    <rect key="frame" x="20" y="388.66666666666669" width="353" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="aev-CT-d5c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erz-Ar-1lE">
+                    <rect key="frame" x="96.666666666666686" y="691.66666666666663" width="200" height="50"/>
+                    <color key="backgroundColor" systemColor="systemMintColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CzC-Au-ypa"/>
+                        <constraint firstAttribute="width" constant="200" id="vRd-yx-O9i"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Screen 3">
+                        <color key="baseForegroundColor" systemColor="labelColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="navBtn:" destination="-1" eventType="touchUpInside" id="VKL-Wg-idS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNf-wv-LAy">
+                    <rect key="frame" x="96.666666666666686" y="154.66666666666666" width="200" height="50"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Nxt-aG-NaH"/>
+                        <constraint firstAttribute="width" constant="200" id="XgZ-q1-CFR"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="labelColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Back Screen 1"/>
+                    <connections>
+                        <action selector="backBtn:" destination="-1" eventType="touchUpInside" id="7re-VS-JWY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FMo-Hb-I1b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3QL-Zf-hHX"/>
+                <constraint firstItem="UNf-wv-LAy" firstAttribute="centerX" secondItem="FMo-Hb-I1b" secondAttribute="centerX" id="GIX-LH-dRy"/>
+                <constraint firstItem="erz-Ar-1lE" firstAttribute="top" secondItem="FMo-Hb-I1b" secondAttribute="bottom" constant="203" id="T31-Vo-91N"/>
+                <constraint firstItem="FMo-Hb-I1b" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="cmP-nv-IDM"/>
+                <constraint firstItem="FMo-Hb-I1b" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="eSR-Ut-kjU"/>
+                <constraint firstItem="FMo-Hb-I1b" firstAttribute="top" secondItem="UNf-wv-LAy" secondAttribute="bottom" constant="184" id="mWQ-mC-pIS"/>
+                <constraint firstItem="erz-Ar-1lE" firstAttribute="centerX" secondItem="FMo-Hb-I1b" secondAttribute="centerX" id="oyt-Hi-G54"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FMo-Hb-I1b" secondAttribute="trailing" constant="20" id="rA8-MD-OmF"/>
+            </constraints>
+            <point key="canvasLocation" x="93.89312977099236" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
